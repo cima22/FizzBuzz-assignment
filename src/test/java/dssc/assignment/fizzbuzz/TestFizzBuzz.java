@@ -72,16 +72,18 @@ public class TestFizzBuzz {
         assertEquals("Bang",res);
     }
 
+    @Test
     void is_35_computable() {
         FizzBuzz fizzBuzz = new FizzBuzz();
-        int num = 7;
+        int num = 35;
         String res = fizzBuzz.computeNumber(num);
         assertEquals("BuzzBang",res);
     }
 
+    @Test
     void is_13_computable() {
         FizzBuzz fizzBuzz = new FizzBuzz();
-        int num = 7;
+        int num = 13;
         String res = fizzBuzz.computeNumber(num);
         assertEquals("13",res);
     }
